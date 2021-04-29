@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+
+            background-image: url("background.jpg");
+
+
+            height: 100%;
+
+
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <div style="text-align: center; color: darkorange;">
+            <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif color: red;">KUNG-FU FIGHTING</h1>
+        </div>
+        <h3 style="text-align: center ;">LEFT->KICK || RIGHT->PUNCH</h3>
+        <h3 style="text-align: center ;">UP->BLOCK || DOWN->FORWARD</h3>
+        <br>
+        <br>
+        <div style="text-decoration: blue;">
+            <ul style="color:royalblue;" id="list">
+
+            </ul>
+        </div>
+        <div style="text-align: justify;">
+            <canvas id="myCanvas" height="700px" width="700px"></canvas>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
